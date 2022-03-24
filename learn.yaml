@@ -1,0 +1,25 @@
+  # YAML
+
+  ## Key value pair
+  Fruit: Apple
+  Liquid: Water
+  Meat: Chicken
+
+  ## Array or List
+  Fruits:
+  - Orange
+  - Apple
+  - Banana
+
+## Dictionary or Map
+Banana:
+  Calories: 105
+  Fat: 0.4g
+  Carbs: 27g
+
+Grapes:
+  Calories: 62
+  Fat: 0.3g
+  Carbs: 16g
+
+  
