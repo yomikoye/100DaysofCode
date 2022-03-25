@@ -9,5 +9,15 @@ Get-Help gsv -Examples
 Get-Help gsv -Detailed
 Get-Help gsv -ShowWindow
 
-Get-Service "s*" | Sort-Object status
+Get-Service "s*","c*" | Sort-Object status 
+
+Get-Help *eventlog*
+
+Get-Help *about* 
+
+Get-Help Providers
+
+Get-Service -Namebits | Start-Service -PassThru
+
+Get-Service | Export-Csv ./service.csv
 
